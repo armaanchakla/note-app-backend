@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a6"
+  },
+  "userId": {
+    "$oid": "6a78bbe09ef98fc4b84b1293"
+  },
+  "title": "Understanding MongoDB aggregation",
+  "content": "An overview of aggregation pipelines and $lookup joins.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a7"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1295"
+  },
+  "title": "Post 1 by John Doe",
+  "content": "Public post content number 1: learning TypeScript and Node.js.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a8"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1297"
+  },
+  "title": "Post 2 by Jane Smith",
+  "content": "Public post content number 2: learning TypeScript and Node.js.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a9"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1299"
+  },
+  "title": "Post 3 by Alice Johnson",
+  "content": "Public post content number 3: learning TypeScript and Node.js.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12aa"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b129b"
+  },
+  "title": "Post 4 by Bob Brown",
+  "content": "Public post content number 4: learning TypeScript and Node.js.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.154Z"
+  }
+}]

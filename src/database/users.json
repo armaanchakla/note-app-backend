@@ -1,0 +1,103 @@
+[{
+  "_id": {
+    "$oid": "6a78bbe09ef98fc4b84b1293"
+  },
+  "name": "Admin User",
+  "email": "admin@example.com",
+  "password": "$2a$12$FUHdhbwSHdDjxro1WvKeAu5zkb2qeDoJ4gxvybAPbLkhF2uCVp8Ku",
+  "role": "ADMIN",
+  "interests": [
+    "engineering",
+    "leadership"
+  ],
+  "createdAt": {
+    "$date": "2026-08-09T17:41:52.843Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:52.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a78bbe19ef98fc4b84b1295"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "$2a$12$k6k2TJmPn3jvo58cmgIj1.7BnSZXfVl4ZBG8OyDK9lp41DrXmh4qm",
+  "role": "USER",
+  "interests": [
+    "chess",
+    "reading",
+    "music"
+  ],
+  "createdAt": {
+    "$date": "2026-08-09T17:41:53.118Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:53.118Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a78bbe19ef98fc4b84b1297"
+  },
+  "name": "Jane Smith",
+  "email": "jane@example.com",
+  "password": "$2a$12$hCGoWX.oWLCEyO3wJmeRE.fisiVWMWfgpaXjYXK2lbVYtN9uG5TAC",
+  "role": "USER",
+  "interests": [
+    "reading",
+    "photography"
+  ],
+  "createdAt": {
+    "$date": "2026-08-09T17:41:53.378Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:53.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a78bbe19ef98fc4b84b1299"
+  },
+  "name": "Alice Johnson",
+  "email": "alice@example.com",
+  "password": "$2a$12$E9Hboqp86joC.uDnv2jdj.ORmwHQVh84ElkIxV4KrMobxiARgyEQy",
+  "role": "USER",
+  "interests": [
+    "chess",
+    "coding",
+    "gaming"
+  ],
+  "createdAt": {
+    "$date": "2026-08-09T17:41:53.638Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:53.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a78bbe19ef98fc4b84b129b"
+  },
+  "name": "Bob Brown",
+  "email": "bob@example.com",
+  "password": "$2a$12$spmUPu3nM0O6ia35UJErpu3nEcqULAJci/AD2FiXiWCmc/TBN647e",
+  "role": "USER",
+  "interests": [
+    "music",
+    "sports",
+    "chess"
+  ],
+  "createdAt": {
+    "$date": "2026-08-09T17:41:53.891Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:53.891Z"
+  },
+  "__v": 0
+}]

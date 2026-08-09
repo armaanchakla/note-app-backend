@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b129d"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1295"
+  },
+  "title": "Meeting notes 1",
+  "content": "Notes from meeting 1 about project planning and next steps.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b129e"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1297"
+  },
+  "title": "Meeting notes 2",
+  "content": "Notes from meeting 2 about project planning and next steps.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b129f"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1299"
+  },
+  "title": "Meeting notes 3",
+  "content": "Notes from meeting 3 about project planning and next steps.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a0"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b129b"
+  },
+  "title": "Meeting notes 4",
+  "content": "Notes from meeting 4 about project planning and next steps.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a1"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1295"
+  },
+  "title": "Personal journal 1",
+  "content": "Personal journal entry 1 reflecting on the week.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a2"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1297"
+  },
+  "title": "Personal journal 2",
+  "content": "Personal journal entry 2 reflecting on the week.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a3"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b1299"
+  },
+  "title": "Personal journal 3",
+  "content": "Personal journal entry 3 reflecting on the week.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a78bbe29ef98fc4b84b12a4"
+  },
+  "userId": {
+    "$oid": "6a78bbe19ef98fc4b84b129b"
+  },
+  "title": "Personal journal 4",
+  "content": "Personal journal entry 4 reflecting on the week.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-08-09T17:41:54.149Z"
+  }
+}]
