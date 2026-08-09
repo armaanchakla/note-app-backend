@@ -37,26 +37,11 @@ export const AuthService = {
 
   async login(email: string, password: string): Promise<AuthResult> {
     const user = await UserRepository.findByEmail(email);
-
-    console.log("LOGIN DEBUG", {
-      email,
-      userFound: !!user,
-      userId: user?._id?.toString(),
-      userEmail: user?.email,
-      hasPassword: !!user?.password,
-      passwordLength: user?.password?.length,
-    });
-
     if (!user) {
       throw new UnauthorizedError("INVALID_CREDENTIALS", "Invalid credentials");
     }
 
     const passwordMatches = await user.comparePassword(password);
-
-    console.log("PASSWORD DEBUG", {
-      passwordMatches,
-    });
-
     if (!passwordMatches) {
       throw new UnauthorizedError("INVALID_CREDENTIALS", "Invalid credentials");
     }
