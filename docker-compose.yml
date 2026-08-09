@@ -1,0 +1,35 @@
+# =================================================================
+# BACKEND compose — runs the WHOLE backend stack (MongoDB + seed + API)
+# as a single self-contained container. One command spins it all up.
+#
+# Ports exposed:
+#   - 5000  : Note App API
+#   - 27017 : MongoDB (so Mongo Compass on the host can connect)
+# =================================================================
+name: note-app
+
+services:
+  backend:
+    build:
+      context: ./
+    image: note-app-backend
+    container_name: note-app-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+      - "27017:27017"
+    environment:
+      NODE_ENV: development
+      PORT: 5000
+      SEED_DB: "true"
+      MONGODB_URI: mongodb://localhost:27017/note_app
+      JWT_SECRET: t23XPHRsCBIfUIT+UZlLA4JHjm6x5fxKE8DkLdMthlg=
+      JWT_EXPIRES_IN: 1d
+      BCRYPT_ROUNDS: "12"
+      # Allow the browser (frontend served on host port 8080) to call the API
+      CORS_ORIGIN: http://localhost:8080
+    volumes:
+      - backend-mongo-data:/data/db
+
+volumes:
+  backend-mongo-data:
