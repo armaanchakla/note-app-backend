@@ -21,6 +21,6 @@ export const env = {
   mongodbUri: getEnv("MONGODB_URI", "mongodb://localhost:27017/note_app"),
   jwtSecret: getEnv("JWT_SECRET", "change-this-secret"),
   jwtExpiresIn: getEnv("JWT_EXPIRES_IN", "1d"),
-  corsOrigin: getEnv("CORS_ORIGIN", "http://localhost:5173"),
+  corsOrigin: getEnv("CORS_ORIGIN", "http://localhost:8080"),
   isProduction: getEnv("NODE_ENV", "development") === "production",
 };

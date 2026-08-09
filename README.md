@@ -221,7 +221,7 @@ MONGODB_URI=mongodb://localhost:27017/note_app
 JWT_SECRET=change-this-secret
 JWT_EXPIRES_IN=1d
 BCRYPT_ROUNDS=12
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://localhost:8080
 ```
 
 ## Docker
